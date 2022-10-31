@@ -1,0 +1,27 @@
+diff --git a/node_modules/react-native-gesture-handler/ios/RNGestureHandler.h b/node_modules/react-native-gesture-handler/ios/RNGestureHandler.h
+index f952c15..31811b3 100644
+--- a/node_modules/react-native-gesture-handler/ios/RNGestureHandler.h
++++ b/node_modules/react-native-gesture-handler/ios/RNGestureHandler.h
+@@ -67,7 +67,7 @@ if (value != nil) recognizer.prop = [RCTConvert type:value]; \
+ - (void)reset;
+ - (void)sendEventsInState:(RNGestureHandlerState)state
+            forViewWithTag:(nonnull NSNumber *)reactTag
+-            withExtraData:(RNGestureHandlerEventExtraData *)extraData;
++            withExtraData:(nonnull RNGestureHandlerEventExtraData *)extraData;
+ 
+ @end
+ 
+diff --git a/node_modules/react-native-gesture-handler/ios/RNGestureHandlerManager.h b/node_modules/react-native-gesture-handler/ios/RNGestureHandlerManager.h
+index a94a0fd..92546fe 100644
+--- a/node_modules/react-native-gesture-handler/ios/RNGestureHandlerManager.h
++++ b/node_modules/react-native-gesture-handler/ios/RNGestureHandlerManager.h
+@@ -3,6 +3,9 @@
+ #import <React/RCTBridgeModule.h>
+ #import <React/RCTUIManager.h>
+ 
++#import <React/RCTEventDispatcher.h>
++
++
+ @interface RNGestureHandlerManager : NSObject
+ 
+ - (nonnull instancetype)initWithUIManager:(nonnull RCTUIManager *)uiManager
