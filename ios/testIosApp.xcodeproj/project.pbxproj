@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		48FE805EB0AEAB6846D92366 /* libPods-testIosApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB298C7D7B0FDB454C0294D /* libPods-testIosApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		87153045DE510E89E9A560C7 /* libPods-testIosApp-testIosAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C073611C3904DFA932B6BDF /* libPods-testIosApp-testIosAppTests.a */; };
-		FF90C9BC031A9D7F1BACA583 /* libPods-testIosApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D815A7F12D4132C71F56C9A /* libPods-testIosApp.a */; };
+		B66FC1330499CC89636D1D53 /* libPods-testIosApp-testIosAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD4790491FC95B24C9B979 /* libPods-testIosApp-testIosAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +37,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testIosApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = testIosApp/main.m; sourceTree = "<group>"; };
 		2A5E6976DF220DD5DD1232DD /* Pods-testIosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIosApp.release.xcconfig"; path = "Target Support Files/Pods-testIosApp/Pods-testIosApp.release.xcconfig"; sourceTree = "<group>"; };
-		2C073611C3904DFA932B6BDF /* libPods-testIosApp-testIosAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIosApp-testIosAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4016919E37D4DA41D05CCF2D /* Pods-testIosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIosApp.debug.xcconfig"; path = "Target Support Files/Pods-testIosApp/Pods-testIosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		67FA3B229ACE47D6D3095FBB /* Pods-testIosApp-testIosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIosApp-testIosAppTests.release.xcconfig"; path = "Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testIosApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D815A7F12D4132C71F56C9A /* libPods-testIosApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIosApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3561F342D8E278DEF01184 /* Pods-testIosApp-testIosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIosApp-testIosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB298C7D7B0FDB454C0294D /* libPods-testIosApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIosApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACD4790491FC95B24C9B979 /* libPods-testIosApp-testIosAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIosApp-testIosAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87153045DE510E89E9A560C7 /* libPods-testIosApp-testIosAppTests.a in Frameworks */,
+				B66FC1330499CC89636D1D53 /* libPods-testIosApp-testIosAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF90C9BC031A9D7F1BACA583 /* libPods-testIosApp.a in Frameworks */,
+				48FE805EB0AEAB6846D92366 /* libPods-testIosApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9D815A7F12D4132C71F56C9A /* libPods-testIosApp.a */,
-				2C073611C3904DFA932B6BDF /* libPods-testIosApp-testIosAppTests.a */,
+				CAB298C7D7B0FDB454C0294D /* libPods-testIosApp.a */,
+				EACD4790491FC95B24C9B979 /* libPods-testIosApp-testIosAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,7 +160,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A4C6EFEF9A6873201BFDBDB8 /* [CP] Embed Pods Frameworks */,
 				8CA47BC64EDD9800820C63F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,7 +182,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CC33BE1C80F026D7EFC8801B /* [CP] Embed Pods Frameworks */,
 				B98113000B39122DB411AAD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -326,23 +324,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4C6EFEF9A6873201BFDBDB8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B98113000B39122DB411AAD6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,23 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC33BE1C80F026D7EFC8801B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
