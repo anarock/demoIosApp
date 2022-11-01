@@ -161,6 +161,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				8CA47BC64EDD9800820C63F7 /* [CP] Copy Pods Resources */,
+				D4BCCB3D9F5E91ECBA4B3324 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +184,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				B98113000B39122DB411AAD6 /* [CP] Copy Pods Resources */,
+				A6374FCA5ED10303132E3CF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +326,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A6374FCA5ED10303132E3CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B98113000B39122DB411AAD6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp/Pods-testIosApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BCCB3D9F5E91ECBA4B3324 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIosApp-testIosAppTests/Pods-testIosApp-testIosAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
