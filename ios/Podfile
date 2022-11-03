@@ -6,7 +6,6 @@ platform :ios, '11.0'
 target 'testIosApp' do
   config = use_native_modules!
 
-  # use_modular_headers!
   # use_frameworks!
     # If you're using autolinking, this line might not be needed
 
@@ -15,7 +14,6 @@ target 'testIosApp' do
   pod 'Firebase', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
   pod 'GoogleUtilities', :modular_headers => true
-  pod 'FirebaseMessaging',:modular_headers => true
 
   # NOTE: Do not remove, needed to keep WatermelonDB compiling:
   pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi', :modular_headers => true
